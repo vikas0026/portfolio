@@ -71,7 +71,7 @@ export const PROJECTS: Project[] = [
     ],
     tech: ["Python", "Whisper", "Vosk", "Transformers", "NLP"],
     github: "https://github.com/vikas0026/EchoClean-AI",
-    image: "Screenshot 2026-02-12 105634.png"
+    image: "echoclean.png"
   },
   {
     title: "NetGuard",
@@ -83,7 +83,7 @@ export const PROJECTS: Project[] = [
     ],
     tech: ["Java", "Python", "AES", "RSA", "ML", "Networking"],
     github: "https://github.com/vikas0026/NetGuard",
-    image: "Screenshot 2026-02-12 105643.png"
+    image: "netguard.png"
   }
 ];
 
