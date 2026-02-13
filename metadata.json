@@ -1,0 +1,7 @@
+{
+  "name": "Vikas - AI & Software Engineering Portfolio",
+  "description": "A high-impact, modern portfolio for Vikas, focusing on AI systems, scalable backend engineering, and data analytics.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
