@@ -275,7 +275,7 @@ const Hero: React.FC = () => {
               Contact Me
             </a>
             <a
-  href="https://github.com/vikas0026/portfolio/blob/main/Vikas_SDE_Resume.pdf"
+  href="https://drive.google.com/file/d/1piRN95BOKcQpOUmkWK71Sh2KHKZbDh7G/view?usp=sharing"
   download="/portfolio/blob/main/Vikas_SDE_Resume.pdf"
   className="p-5 bg-[#161b22] border border-[#30363d] text-white rounded-xl hover:text-[#00BFFF] hover:border-[#00BFFF] transition-all flex items-center gap-2"
 >
