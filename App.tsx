@@ -276,7 +276,7 @@ const Hero: React.FC = () => {
             </a>
             <a
   href="https://drive.google.com/file/d/1piRN95BOKcQpOUmkWK71Sh2KHKZbDh7G/view?usp=sharing"
-  download="/portfolio/blob/main/Vikas_SDE_Resume.pdf"
+
   className="p-5 bg-[#161b22] border border-[#30363d] text-white rounded-xl hover:text-[#00BFFF] hover:border-[#00BFFF] transition-all flex items-center gap-2"
 >
   <Download size={20} />
@@ -529,25 +529,7 @@ const Contact: React.FC = () => (
           <div className="absolute top-0 right-0 p-8 text-[#30363d] select-none pointer-events-none">
             <Terminal size={120} />
           </div>
-          <form className="space-y-6 relative z-10" onSubmit={(e) => e.preventDefault()}>
-            <div className="grid grid-cols-2 gap-6">
-              <div>
-                <label className="text-[10px] font-mono text-[#8B949E] uppercase tracking-widest block mb-2">Identifier</label>
-                <input type="text" placeholder="Your Name" className="w-full bg-[#0D1117] border border-[#30363d] rounded-xl p-4 text-white focus:outline-none focus:border-[#00BFFF] transition-all" />
-              </div>
-              <div>
-                <label className="text-[10px] font-mono text-[#8B949E] uppercase tracking-widest block mb-2">Endpoint</label>
-                <input type="email" placeholder="email@address.com" className="w-full bg-[#0D1117] border border-[#30363d] rounded-xl p-4 text-white focus:outline-none focus:border-[#00BFFF] transition-all" />
-              </div>
-            </div>
-            <div>
-              <label className="text-[10px] font-mono text-[#8B949E] uppercase tracking-widest block mb-2">Payload</label>
-              <textarea rows={4} placeholder="Your message content..." className="w-full bg-[#0D1117] border border-[#30363d] rounded-xl p-4 text-white focus:outline-none focus:border-[#00BFFF] transition-all resize-none"></textarea>
-            </div>
-            <button className="w-full py-5 bg-[#00BFFF] text-[#0D1117] font-bold rounded-xl hover:bg-white hover:scale-[1.01] active:scale-95 transition-all uppercase tracking-[0.2em] shadow-lg shadow-[#00BFFF]/20">
-              Transmit Data
-            </button>
-          </form>
+          
         </div>
       </div>
     </div>
